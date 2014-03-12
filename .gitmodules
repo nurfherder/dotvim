@@ -1,0 +1,12 @@
+[submodule "bundle/puppet"]
+	path = bundle/puppet
+	url = https://github.com/puppetlabs/puppet-syntax-vim.git
+[submodule "bundle/color-solarized"]
+	path = bundle/color-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "bundle/plug-syntastic"]
+	path = bundle/plug-syntastic
+	url = https://github.com/scrooloose/syntastic.git
+[submodule "bundle/plug-fugitive"]
+	path = bundle/plug-fugitive
+	url = http://github.com/tpope/vim-fugitive.git
