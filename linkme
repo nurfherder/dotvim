@@ -1,0 +1,11 @@
+# Links for vim configs
+
+# Basic Operation
+# cd ${DIR}
+# ln -s ${SRC} ${DST}
+
+#DIR:SRC:DST
+%HOME%:%HERE%:.vim
+%HOME%:.vim/vimrc:.vimrc
+%HOME%:.vim/gvimrc:.gvimrc
+

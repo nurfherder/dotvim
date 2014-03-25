@@ -1,3 +1,6 @@
+VIM CONFIGURATION
+=================
+
 Introduction:
 -------------
 
@@ -10,18 +13,26 @@ This vim setup is designed to be used as an IDE for mainly ruby, python, and che
  * White space made visible
  * Syntax highlighting
 
+Prereq:
+-------
+
+ * git
+ * Vim compliled with python enabled.
+ * Python powerline installed.
+ * A Terminal configured for the Solarized color pallet (see below)
+ * A Terminal configured to use a powerline patched font (see below)
+
 Deploy:
 -------
 
 Clone repo to your home directory:
 
-    git clone git://github.com/nurfherder/dotvim.git ~/dot/vim
+    git clone git://github.com/nurfherder/dotvim.git ~/code/dot/dotvim
 
 Create symlinks:
 
-    ln -s ~/dot/vim ~/.vim
-    ln -s ~/dot/vim/vimrc ~/.vimrc
-    ln -s ~/dot/vim/gvimrc ~/.gvimrc
+    cd ~/code/dot/dotvim
+    linkme.sh
 
 Switch to the `~/.vim` directory, and fetch submodules:
 
