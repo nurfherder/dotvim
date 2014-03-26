@@ -1,5 +1,2 @@
 #Ignore NetRW history
 *netrwhist
-
-#Ignore git submodules added in bundle
-bundle/**
