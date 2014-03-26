@@ -1,6 +1,3 @@
-[submodule "bundle/puppet"]
-	path = bundle/puppet
-	url = https://github.com/puppetlabs/puppet-syntax-vim.git
 [submodule "bundle/color-solarized"]
 	path = bundle/color-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
