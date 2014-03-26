@@ -13,11 +13,15 @@ This vim setup is designed to be used as an IDE for mainly ruby, python, and che
  * White space made visible
  * Syntax highlighting
 
+I'm blatantly ripping off the style of managing Vim plugins using Pathogen and git submodules that is layed out in this VimCast:
+
+http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/#comment-86499711
+
 Prereq:
 -------
 
  * git
- * Vim compliled with python enabled.
+ * Vim compiled with python enabled.
  * Python powerline installed.
  * A Terminal configured for the Solarized color pallet (see below)
  * A Terminal configured to use a powerline patched font (see below)
