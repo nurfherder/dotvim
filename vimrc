@@ -12,7 +12,9 @@ execute pathogen#infect()
 "------------------------------------------------
 " Plugin - Powerline
 "------------------------------------------------
-"set rtp+=/local/home/j7qbg0/.local/lib/python2.7/site-packages/powerline/bindings/vim
+"local path on most OS's
+set rtp+=~/.local/lib/python2.7/site-packages/powerline/bindings/vim
+"local path for OS X with homebrew
 set rtp+=/usr/local/lib/python2.7/site-packages/powerline/bindings/vim/
 set laststatus=2
 set encoding=utf-8

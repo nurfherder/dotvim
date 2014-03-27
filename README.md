@@ -1,8 +1,5 @@
-VIM CONFIGURATION
-=================
-
-Introduction:
--------------
+My Vim Configuration
+====================
 
 This vim setup is designed to be used as an IDE for mainly ruby, python, and chef.
 
@@ -17,32 +14,29 @@ I'm blatantly ripping off the style of managing Vim plugins using Pathogen and g
 
 http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/#comment-86499711
 
-Prereq:
--------
-
- * git
- * Vim compiled with python enabled.
- * Python powerline installed.
- * A Terminal configured for the Solarized color pallet (see below)
- * A Terminal configured to use a powerline patched font (see below)
-
 Deploy:
 -------
+
+**Prerequisites:**
+
+ * git
+ * linkme.sh
+ * Vim compiled with python enabled.
+ * Python powerline installed.
+ * A Terminal configured for the Solarized color palette (see below)
+ * A Terminal configured to use a powerline patched font (see below)
+
+**Procedure:**
 
 Clone repo to your home directory:
 
     git clone git://github.com/nurfherder/dotvim.git ~/code/dot/dotvim
 
-Create symlinks:
+Create symlinks to config files and fetch submodules:
 
     cd ~/code/dot/dotvim
+    git submodule update --init
     linkme.sh
-
-Switch to the `~/.vim` directory, and fetch submodules:
-
-    cd ~/.vim
-    git submodule init
-    git submodule update
 
 Upgrade Plugins:
 ----------------
