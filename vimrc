@@ -26,7 +26,7 @@ let g:Powerline_colorscheme = 'solarized'
 " Plugin - Syntastic
 "------------------------------------------------
 let g:syntastic_ruby_checkers=['mri', 'rubocop']
-let g:syntastic_sh_checkers=['sh', 'checkbashisms']
+let g:syntastic_sh_checkers=['sh', 'shellcheck', 'checkbashisms']
 "
 " Use filetype extentions
 filetype plugin indent on
