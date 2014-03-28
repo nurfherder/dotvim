@@ -5,8 +5,8 @@ This vim setup is designed to be used as an IDE for mainly ruby, python, and che
 
 Includes:
 
- * Syntastic - real time syntax checking
- * Fugititve - run Git in native vim style
+ * [Syntastic][6] - real time syntax checking
+ * [Fugitive][7] - run Git in native vim style
  * Configured to make white space made visible
  * Has built-in syntax highlighting for many popular languages.
 
@@ -24,9 +24,9 @@ Deploy:
 **Prerequisites:**
 
  * git
- * linkme.sh
- * Vim compiled with python enabled.
- * Python powerline installed.
+ * [linkme.sh](https://github.com/nurfherder/linkme)
+ * Vim compiled with python enabled (sometimes packaged as vim-enhanced).
+ * [Powerline python add-on][8] (_optional_).
  * A Terminal configured for the Solarized color palette (see below)
  * A Terminal configured to use a powerline patched font (see below)
 
@@ -58,12 +58,14 @@ Later down the road you'll want to upgrade all the included vim plugins to the l
 Beautify Terminal:
 ------------------
 
-In order to take full advantage of the [solarized color scheme][3] and powerline you'll want to update your terminal's color pallete and use a powerline 'patched' font.
+In order to take full advantage of the [solarized color scheme][3] and powerline add-on you'll want to update your terminal's color palette and use a [powerline 'patched' font][4].  I recommend downloading DejaVuSansMono:
+
+https://github.com/Lokaltog/powerline-fonts/raw/master/DejaVuSansMono/DejaVu%20Sans%20Mono%20for%20Powerline.ttf
 
 
 ###For Windows:
 
- *  Use [PuttyTray][4]
+ *  Use [PuttyTray][5]
  *  Add Solarized Color Palette
  *  Add PowerLine enhanced font
 
@@ -80,6 +82,10 @@ In order to take full advantage of the [solarized color scheme][3] and powerline
  *  Add PowerLine enhanced font
 
 [1]: http://beyondgrep.com/ "ack!"
-[2]: http://ctags.sourceforge.net/ "Exuberant CTAGS"
+[2]: http://ctags.sourceforge.net/ "Exuberant Ctags"
 [3]: http://ethanschoonover.com/solarized "Solarized"
-[4]: https://puttytray.goeswhere.com/ "PuTTYtray"
+[4]: https://github.com/Lokaltog/powerline-fonts "Powerline fonts"
+[5]: https://puttytray.goeswhere.com/ "PuTTYtray"
+[6]: https://github.com/scrooloose/syntastic "Vim Syntastic"
+[7]: https://github.com/tpope/vim-fugitive "Vim Fugitive"
+[8]: https://github.com/Lokaltog/powerline "Vim Powerline"
