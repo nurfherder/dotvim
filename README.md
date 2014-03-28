@@ -38,6 +38,12 @@ Create symlinks to config files and fetch submodules:
     git submodule update --init
     linkme.sh
 
+Powerline is a python extention to Vim that you will need to install using the python pip command:
+
+    pip install --user git+git://github.com/Lokaltog/powerline
+
+and to Solarize powerline you need to edit `~/.local/lib/python2.7/site-packages/powerline/config_files/config.jason` so that for the `vim` entry it has `"colorscheme": "solarized",`.
+
 Upgrade Plugins:
 ----------------
 
@@ -48,13 +54,16 @@ Later down the road you'll want to upgrade all the included vim plugins to the l
 Beautify Terminal:
 ------------------
 
+In order to take full advantage of the solarized color scheme and powerline you'll need to update your terminal's color pallete and use a powerline 'patched' font.
+
+
 ###For Windows:
 
  *  Use PuttyTray
  *  Add Solarized Color Palette
  *  Add PowerLine enhanced font
 
-###For Ubuntu:
+###For Linux:
 
  *  Use gTERM
  *  Add Solarized Color Palette
