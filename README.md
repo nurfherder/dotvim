@@ -3,12 +3,16 @@ My Vim Configuration
 
 This vim setup is designed to be used as an IDE for mainly ruby, python, and chef.
 
+Includes:
+
  * Syntastic - real time syntax checking
  * Fugititve - run Git in native vim style
- * Ack - a better grep for code
- * Exuberant CTags - navigate code by function
- * White space made visible
- * Syntax highlighting
+ * Configured to make white space made visible
+ * Has built-in syntax highlighting for many popular languages.
+
+Works well with:
+ * [Ack][1] - a better grep for code
+ * [Exuberant CTags][2] - navigate code by function
 
 I'm blatantly ripping off the style of managing Vim plugins using Pathogen and git submodules that is layed out in this VimCast:
 
@@ -54,12 +58,12 @@ Later down the road you'll want to upgrade all the included vim plugins to the l
 Beautify Terminal:
 ------------------
 
-In order to take full advantage of the solarized color scheme and powerline you'll need to update your terminal's color pallete and use a powerline 'patched' font.
+In order to take full advantage of the [solarized color scheme][3] and powerline you'll want to update your terminal's color pallete and use a powerline 'patched' font.
 
 
 ###For Windows:
 
- *  Use PuttyTray
+ *  Use [PuttyTray][4]
  *  Add Solarized Color Palette
  *  Add PowerLine enhanced font
 
@@ -74,3 +78,8 @@ In order to take full advantage of the solarized color scheme and powerline you'
  *  Use built-in Terminal.app
  *  Add Solarized Color Palette
  *  Add PowerLine enhanced font
+
+[1]: http://beyondgrep.com/ "ack!"
+[2]: http://ctags.sourceforge.net/ "Exuberant CTAGS"
+[3]: http://ethanschoonover.com/solarized "Solarized"
+[4]: https://puttytray.goeswhere.com/ "PuTTYtray"
