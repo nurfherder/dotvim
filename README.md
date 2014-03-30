@@ -24,7 +24,7 @@ Deploy:
 **Prerequisites:**
 
  * git
- * [linkme.sh](https://github.com/nurfherder/linkme)
+ * [slink](https://github.com/nurfherder/slink)
  * Vim compiled with python enabled (sometimes packaged as vim-enhanced).
  * [Powerline python add-on][8] (_optional_).
  * A Terminal configured for the Solarized color palette (see below)
@@ -40,7 +40,7 @@ Create symlinks to config files and fetch submodules:
 
     cd ~/code/dot/dotvim
     git submodule update --init
-    linkme.sh
+    slink
 
 Powerline is a python extention to Vim that you will need to install using the python pip command:
 
@@ -71,7 +71,7 @@ https://github.com/Lokaltog/powerline-fonts/raw/master/DejaVuSansMono/DejaVu%20S
 
 ###For Linux:
 
- *  Use gTERM
+ *  Use Gterm
  *  Add Solarized Color Palette
  *  Add PowerLine enhanced font
 
