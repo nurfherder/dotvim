@@ -52,6 +52,9 @@ autocmd ColorScheme * highlight Whitespace gui=underline ctermbg=darkblue guibg=
 " Show trailing whitespace and spaces before a tab:
 match Whitespace /\s\+$\| \+\ze\t/
 
+" Mark 81th column and 120->999 as a guideline
+let &colorcolumn="80,".join(range(120,999),",")
+
 "------------------------------------------------
 " Colorscheme - Solarized
 " https://github.com/altercation/vim-colors-solarized.git
