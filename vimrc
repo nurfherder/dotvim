@@ -37,6 +37,10 @@ nmap <leader>l :set list!<CR> :set nu!<CR> :set paste!<CR>
 " Configure NETRW module to toggle hiding dot files by pressing 'a'
 let g:netrw_listhide='\^\..*'
 
+" Force using two spaces
+set expandtab
+set shiftwidth=2
+
 "------------------------------------------------
 " Plugin - Airline
 "------------------------------------------------
@@ -64,6 +68,8 @@ set encoding=utf-8
 "------------------------------------------------
 let g:syntastic_ruby_checkers=['mri', 'rubocop']
 let g:syntastic_sh_checkers=['sh', 'shellcheck', 'checkbashisms']
+let g:syntastic_go_checkers = ['golint', 'govet', 'errcheck']
+let g:syntastic_python_checkers=['python', 'py3kwarn', 'pylint']
 
 "------------------------------------------------
 " Highlight Whitespace
