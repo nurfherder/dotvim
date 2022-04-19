@@ -70,6 +70,7 @@ let g:syntastic_ruby_checkers=['mri', 'rubocop']
 let g:syntastic_sh_checkers=['sh', 'shellcheck', 'checkbashisms']
 let g:syntastic_go_checkers = ['golint', 'govet', 'errcheck']
 let g:syntastic_python_checkers=['python', 'py3kwarn', 'pylint']
+let g:syntastic_php_checkers=['php -l']
 
 "------------------------------------------------
 " Highlight Whitespace
